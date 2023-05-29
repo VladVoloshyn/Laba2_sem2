@@ -1,0 +1,135 @@
+
+/*-----QWidget-----*/
+QWidget
+{
+    background-color: #F0E7DB;
+    color: rgba(242, 245, 240, 0.6);
+    border-color: #181c21;
+
+}
+
+/*-----QRadioButton-----*/
+QRadioButton
+{
+    color: #121212;
+}
+
+/*-----QComboBox-----*/
+QComboBox
+{
+    background-color: #F6F0E8;
+    padding-left: 6px;
+    color: #121212;
+    height: 20px;
+    border-radius: 4px;
+
+}
+
+/*-----QGroupBox-----*/
+QGroupBox
+{
+    color: #121212;
+    padding-top: 20px;
+    border-radius: 4px;
+
+}
+
+/*-----QTabWidget-----*/
+QTabWidget::pane
+{
+    border: 2px solid #F6F0E8;
+}
+
+QTabBar::tab
+{
+    color: #121212;
+    background: #F6F0E8;
+    border: none;
+    padding: 10px;
+}
+
+QTabBar::tab:selected
+{
+    background: #88CCCA;
+}
+
+/*-----QLabel-----*/
+QLabel
+{
+    color: #121212;
+}
+
+/*-----QPushButton-----*/
+QPushButton
+{
+    background-color: #319795;
+    color: white;
+    border-radius: 10px;
+    border-style: solid;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: Arial;
+    padding: 10px;
+
+}
+
+
+QPushButton::hover
+{
+    background-color: #338583;
+
+}
+
+
+QPushButton::pressed
+{
+    background-color: #045755;
+
+}
+
+QPushButton::disabled
+{
+    background-color: lightgrey;
+
+}
+
+
+/*-----QLineEdit-----*/
+QLineEdit
+{
+    background-color: #F6F0E8;
+    color: #121212;
+    border: none;
+    padding: 3px;
+    font-size: 15px;
+
+}
+
+/*------QStatusBar------*/
+QStatusBar
+{
+    color: #121212;
+}
+
+/*-----QTableWidget------*/
+QTableWidget
+{
+    color: #121212;
+}
+QHeaderView::section
+{
+    font-size: 14px;
+    font-weight: bold;
+    background-color: qlineargradient(x1:0, y1:0, x2:0, y2:1,
+                                      stop:0 #616161, stop: 0.5 #505050,
+                                      stop: 0.6 #434343, stop:1 #656565);
+    color: white;
+    padding-left: 4px;
+    border: 1px solid #6c6c6c;
+}
+
+/*-----QTextEdit-----*/
+QTextEdit
+{
+    color: black;
+}
